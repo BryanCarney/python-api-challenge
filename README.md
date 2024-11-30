@@ -33,6 +33,7 @@ Empty list for holding the latitude and longitude combinations
     lat_lngs = []
 
 Empty list for holding the cities names
+    
     cities = []
 
 Range of latitudes and longitudes
