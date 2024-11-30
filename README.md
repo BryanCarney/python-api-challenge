@@ -93,6 +93,7 @@ Create counters
     set_count = 1
 
 Loop through all the cities in our list to fetch weather data
+    
     for i, city in enumerate(cities):
 
 Group cities in sets of 50 for logging purposes
@@ -205,11 +206,11 @@ Export the City_Data into a csv
 
 Read saved data
 
-city_data_df = pd.read_csv("output_data/cities.csv", index_col="City_ID")
-
-Display sample data
-
-city_data_df.head()
+        city_data_df = pd.read_csv("output_data/cities.csv", index_col="City_ID")
+        
+        Display sample data
+        
+        city_data_df.head()
 
 ![image](https://github.com/user-attachments/assets/4a161124-8c5c-4854-affb-618f06687669)
 
