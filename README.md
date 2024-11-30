@@ -635,7 +635,9 @@ Display the map
 
 ![image](https://github.com/user-attachments/assets/db54483b-efe4-4365-a76c-ad0a4d27c16b)
 
-# Step 2: Narrow down the `city_data_df` DataFrame to find your ideal weather condition (I Like hot weather, minimal clouds, respectful amount of humidity and low wind)
+# Step 2: Narrow down the `city_data_df` DataFrame to find your ideal weather condition 
+
+To note: I prefer hot weather, minimal clouds, respectful amount of humidity and lower amounts of wind speed
 
 Narrow down cities that fit criteria and drop any results with null values
 
